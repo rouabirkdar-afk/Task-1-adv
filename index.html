@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Library</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <h1 class="logo"> MY LIBRARY
+        </h1>
+        <ul class="nav-content">
+            <li><a href="/add.html">Add Books</a></li>
+            <li class="mainDropdown"><a href="">Catgories</a>
+                <ul class="dropdown" id="Catgories">
+                    <li data-value="ALL">All</li>
+                    <li data-value="programming">Programming</li>
+                    <li data-value="history">History</li>
+                    <li data-value="math">Math</li>
+                    <li data-value="science">Science</li>
+                </ul>
+            </li>
+            <li><a href="#">Authors</a></li>
+            <li><a href="#">Conect us</a></li>
+        </ul>
+    </nav>
+    <div class="box-search">
+        <input type="text" id="bookSearch" placeholder="search with name of author or book titel" class="search">
+        <input type="submit" value="send" class="send">
+
+    </div>
+
+    <div class="main-div" id="main-div">
+    </div>
+
+
+
+    <script src="assets/javascript/index.js"></script>
+</body>
+
+</html>
